@@ -2,86 +2,83 @@
 <a href="https://github.com/bhavsec/reconspider"><img src="https://raw.githubusercontent.com/bhavsec/reconspider/master/logo.png" width="200"></a>
 </h1>
 
-<h4 align="center"> Most Advanced Open Source Intelligence (OSINT) Framework </h4>
+<h4 align="center"> En Gelişmiş Açık Kaynak İstihbarat (OSINT) Çerçevesi </h4>
 
 <p align="center">
 <a href="https://github.com/bhavsec/reconspider"><img src="https://img.shields.io/static/v1?label=version&message=1.0.7&color=blue"></a>
 <a href="https://github.com/bhavsec/reconspider/issues?q=is:issue+is:closed"><img src="https://img.shields.io/github/issues-closed/bhavsec/reconspider?color=orange"></a>
 <a href="https://travis-ci.com/bhavsec/reconspider"><img src="https://api.travis-ci.com/bhavsec/reconspider.svg"></a>
-
-
 </p>
 
 # ReconSpider
 
-ReconSpider is most Advanced Open Source Intelligence (OSINT) Framework for scanning IP Address, Emails, Websites, Organizations and find out information from different sources.
+ReconSpider; IP adresleri, e-postalar, web siteleri ve organizasyonlar üzerinde tarama yaparak farklı kaynaklardan bilgi toplayan en gelişmiş Açık Kaynak İstihbarat (OSINT) çerçevesidir.
 
-ReconSpider can be used by Infosec Researchers, Penetration Testers, Bug Hunters and Cyber Crime Investigators to find deep information about their target.
+ReconSpider; Bilgi Güvenliği Araştırmacıları, Sızma Testçileri, Hata Avcıları ve Siber Suç Araştırmacıları tarafından hedefleri hakkında derinlemesine bilgi edinmek amacıyla kullanılabilir.
 
-ReconSpider aggregate all the raw data, visualize it on a dashboard and facilitate alerting and monitoring on the data.
+ReconSpider, ham verilerin tamamını toplar, bir pano üzerinde görselleştirir ve veriler üzerinde uyarı ile izleme imkânı sunar.
 
-Recon Spider also combines the capabilities of [Wave](https://github.com/adithyan-ak/WAVE), [Photon](https://github.com/s0md3v/Photon) and [Recon Dog](https://github.com/s0md3v/ReconDog) to do a comprehensive enumeration of attack surface.
+ReconSpider aynı zamanda kapsamlı bir saldırı yüzeyi taraması gerçekleştirmek için [Wave](https://github.com/adithyan-ak/WAVE), [Photon](https://github.com/s0md3v/Photon) ve [Recon Dog](https://github.com/s0md3v/ReconDog) araçlarının yeteneklerini de bünyesinde barındırır.
 
-# Why it's called ReconSpider ?
+# Neden ReconSpider Olarak Adlandırıldı?
 
 ```ReconSpider```  =  ```Recon```  +  ```Spider```
 
 
-**Recon** = **Reconnaissance**
+**Recon** = **Keşif (Reconnaissance)**
 
-Reconnaissance is a mission to obtain information by various detection methods, about the activities and resources of an enemy or potential enemy, or geographic characteristics of a particular area.
-
-
-**Spider = Web crawler**
-
-A Web crawler, sometimes called a spider or spiderbot and often shortened to crawler, is an Internet bot that systematically browses the World Wide Web, typically for the purpose of Web indexing (web spidering).
-
-  
-# Table Of Contents
-
-1. [Version (beta)](https://github.com/bhavsec/reconspider#version-beta)
-2. [Overview of the tool](https://github.com/bhavsec/reconspider#overview-of-the-tool)
-3. [Mind Map (v1)](https://github.com/bhavsec/reconspider#mind-map-v1)
-4. [License Information](https://github.com/bhavsec/reconspider#license-information)
-5. [ReconSpider Banner](https://github.com/bhavsec/reconspider#reconspider-banner)
-6. [Documentation](https://github.com/bhavsec/reconspider#documentation)
-7. [Setting up the environment](https://github.com/bhavsec/reconspider#setting-up-the-environment)
-8. [Updating API Keys](https://github.com/bhavsec/reconspider#updating-api-keys)
-9. [Usage](https://github.com/bhavsec/reconspider#usage)
-10. [Contact](https://github.com/bhavsec/reconspider#contact)
-11. [Wiki & How-to Guide](https://github.com/bhavsec/reconspider#reconspider-full-wiki-and-how-to-guide)
-12. [Updates](https://github.com/bhavsec/reconspider#frequent--seamless-updates)
+Keşif; bir düşmanın veya olası düşmanın faaliyetleri ve kaynakları ya da belirli bir bölgenin coğrafi özellikleri hakkında çeşitli tespit yöntemleriyle bilgi edinmeye yönelik bir görevdir.
 
 
-# Version (beta)
+**Spider = Web Tarayıcısı**
 
-  	ReconSpider   :     1.0.7
-
-
-# Overview of the tool:
-
-* Performs OSINT scan on a IP Address, Emails, Websites, Organizations and find out information from different sources.
-* Correlates and collaborate the results, show them in a consolidated manner.
-* Use specific script / launch automated OSINT for consolidated data.
-* Currently available in only Command Line Interface (CLI).
+Bazen örümcek (spider) veya örümcek bot (spiderbot) olarak da adlandırılan ve çoğunlukla tarayıcı (crawler) olarak kısaltılan bir web tarayıcısı; genellikle web dizinleme (web örümcekliği) amacıyla World Wide Web'i sistematik biçimde gezen bir internet botudur.
 
 
-# Mind Map (v1)
+# İçindekiler
 
-Check out our mind map to see visually organize information of this tool regarding api, services and techniques and more.
+1. [Sürüm (beta)](https://github.com/bhavsec/reconspider#version-beta)
+2. [Araca Genel Bakış](https://github.com/bhavsec/reconspider#overview-of-the-tool)
+3. [Zihin Haritası (v1)](https://github.com/bhavsec/reconspider#mind-map-v1)
+4. [Lisans Bilgileri](https://github.com/bhavsec/reconspider#license-information)
+5. [ReconSpider Başlık Ekranı](https://github.com/bhavsec/reconspider#reconspider-banner)
+6. [Belgeler](https://github.com/bhavsec/reconspider#documentation)
+7. [Ortamın Kurulumu](https://github.com/bhavsec/reconspider#setting-up-the-environment)
+8. [API Anahtarlarının Güncellenmesi](https://github.com/bhavsec/reconspider#updating-api-keys)
+9. [Kullanım](https://github.com/bhavsec/reconspider#usage)
+10. [İletişim](https://github.com/bhavsec/reconspider#contact)
+11. [Wiki ve Kullanım Kılavuzu](https://github.com/bhavsec/reconspider#reconspider-full-wiki-and-how-to-guide)
+12. [Güncellemeler](https://github.com/bhavsec/reconspider#frequent--seamless-updates)
+
+
+# Sürüm (beta)
+
+	ReconSpider   :     1.0.7
+
+
+# Araca Genel Bakış
+
+* IP adresleri, e-postalar, web siteleri ve organizasyonlar üzerinde OSINT taraması yaparak farklı kaynaklardan bilgi toplar.
+* Sonuçları ilişkilendirir ve bir arada sunar, birleştirilmiş biçimde görüntüler.
+* Belirli bir komut dosyası kullanır / birleştirilmiş veri için otomatik OSINT başlatır.
+* Şu an yalnızca Komut Satırı Arayüzü (CLI) üzerinden kullanılabilmektedir.
+
+
+# Zihin Haritası (v1)
+
+API'ler, servisler, teknikler ve daha fazlasına ilişkin araç bilgilerini görsel olarak düzenlenmiş biçimde görmek için zihin haritamıza göz atın.
 
 https://bhavsec.com/img/reconspider_map.png
 
 
+# Lisans Bilgileri
 
-# License Information
 ```
-ReconSpider and its documents are covered under GPL-3.0 (General Public License v3.0)
+ReconSpider ve ilgili belgeler GPL-3.0 (Genel Kamu Lisansı v3.0) kapsamındadır.
 ```
 
 
-
-## ReconSpider Banner
+## ReconSpider Başlık Ekranı
 
 ```
 __________                               _________       __     ___            
@@ -93,81 +90,83 @@ __________                               _________       __     ___
 
 
 
-ENTER 0 - 13 TO SELECT OPTIONS
+SEÇENEĞİ SEÇMEK İÇİN 0 - 13 ARASI BİR SAYI GİRİN
 
-1.  IP                           Enumerate  information  from  IP Address
-2.  DOMAIN                       Gather  information  about  given DOMAIN
-3.  PHONENUMBER                  Gather  information  about   Phonenumber
-4.  DNS MAP                      Map DNS  records associated  with target
-5.  METADATA                     Extract all metadata of  the  given file
-6.  REVERSE IMAGE SEARCH         Obtain domain name or IP address mapping
-7.  HONEYPOT                     Check if it's honeypot or a real  system
-8.  MAC ADDRESS LOOKUP           Obtain information about give Macaddress
-9.  IPHEATMAP                    Draw  out  heatmap  of  locations  of IP
-10. TORRENT                      Gather torrent download  history  of  IP
-11. USERNAME                     Extract Account info. from social  media
-12. IP2PROXY                     Check whether  IP  uses  any VPN / PROXY
-13. MAIL BREACH                  Checks given domain  has  breached  Mail
-99. UPDATE                       Update ReconSpider to its latest version
+1.  IP                           IP  Adresinden  bilgi  topla
+2.  DOMAIN                       Verilen  DOMAIN  hakkında  bilgi  topla
+3.  PHONENUMBER                  Telefon  numarası  hakkında  bilgi  topla
+4.  DNS MAP                      Hedefe  ait  DNS  kayıtlarını  haritalandır
+5.  METADATA                     Verilen  dosyanın  tüm  meta  verilerini  çıkar
+6.  REVERSE IMAGE SEARCH         Alan  adı  veya  IP  adresi  eşlemesi  bul
+7.  HONEYPOT                     Gerçek  sistem  mi  tuzak  mı  kontrol  et
+8.  MAC ADDRESS LOOKUP           MAC  adresi  hakkında  bilgi  edin
+9.  IPHEATMAP                    IP  konumlarının  ısı  haritasını  çıkar
+10. TORRENT                      IP'nin  torrent  indirme  geçmişini  topla
+11. USERNAME                     Sosyal  medyadaki  hesap  bilgilerini  çıkar
+12. IP2PROXY                     IP'nin  VPN  /  Proxy  kullanıp  kullanmadığını  kontrol  et
+13. MAIL BREACH                  Verilen  domainde  sızdırılmış  mail  kontrol  et
+99. UPDATE                       ReconSpider'ı  en  son  sürüme  güncelle
 
-0. EXIT                         Exit from  ReconSpider  to your terminal
+0. EXIT                         ReconSpider'dan  terminalinize  çıkış  yap
 ```
 
 
+# Belgeler
 
-# Documentation
+ReconSpider'ı kurmak ve kullanmak son derece kolaydır. Kurulum süreci oldukça basittir.
 
-Installing and using ReconSpider is very easy. Installation process is very simple.
+1. ReconSpider GitHub deposunu indirme veya klonlama.
+2. Tüm bağımlılıkların kurulması.
+3. Veritabanının yapılandırılması.
 
-1. Downloading or cloning ReconSpider github repository.
-2. Installing all dependencies.
-3. Setting up the Database.
-
-Let's Begin !!
+Hadi Başlayalım!!
 
 
-### Setting up the environment
+### Ortamın Kurulumu
 
-Step 1 - Cloning ReconSpider on your linux system.
+Adım 1 - ReconSpider'ı Linux sisteminize klonlayın.
 
-In order to download ReconSpider simply clone the github repository. Below is the command which you can use in order to clone ReconSpider repository.
+ReconSpider'ı indirmek için GitHub deposunu klonlamanız yeterlidir. Depoyu klonlamak için aşağıdaki komutu kullanabilirsiniz:
+
 ```
 git clone https://github.com/bhavsec/reconspider.git
 ```
 
-Step 2 - Make sure python3 and python3-pip is installed on your system.
+Adım 2 - Sisteminizde python3 ve python3-pip'in kurulu olduğundan emin olun.
 
-You can also perform a check by typing this command in your terminal.
+Terminalinize aşağıdaki komutu yazarak kontrol edebilirsiniz:
 
 ```
 sudo apt install python3 python3-pip
 ```
 
-Step 3 - Installing all dependencies.
+Adım 3 - Tüm bağımlılıkları kurun.
 
-Once you clone and check python installation, you will find directory name as **reconspider**. Just go to that directory and install using these commands:
+Depoyu klonlayıp Python kurulumunu doğruladıktan sonra **reconspider** adlı dizini bulacaksınız. O dizine gidin ve aşağıdaki komutlarla kurulumu gerçekleştirin:
+
 ```
 cd reconspider
 sudo python3 setup.py install
 ```
 
-Step 4 - Setting up the Database.
+Adım 4 - Veritabanını yapılandırın.
 
-**IP2Proxy Database**
+**IP2Proxy Veritabanı**
 
 ```
 https://lite.ip2location.com/database/px8-ip-proxytype-country-region-city-isp-domain-usagetype-asn-lastseen
 ```
-Download database, extract it and move to `reconspider/plugins/` directory.
+
+Veritabanını indirin, arşivden çıkarın ve `reconspider/plugins/` dizinine taşıyın.
 
 
-# Updating API Keys
+# API Anahtarlarının Güncellenmesi
 
-APIs included in ReconSpider are FREE and having limited & restricted usage per month, Please update the current APIs with New APIs in `setup.py` file, and re-install once done to reflect the changes.
+ReconSpider'da bulunan API'ler ÜCRETSİZ olmakla birlikte aylık sınırlı ve kısıtlı kullanım kotasına sahiptir. Lütfen `setup.py` dosyasındaki mevcut API'leri yeni API'lerle güncelleyin ve değişikliklerin geçerli olması için yeniden kurulum yapın.
 
-> Warning: Not updating the APIs can result in not showing the expected output or it may show errors.
+> Uyarı: API'lerin güncellenmemesi beklenen çıktının görüntülenmemesine veya hata oluşmasına yol açabilir.
 
-You need to create the account and get the API Keys from the following websites.
+Aşağıdaki web sitelerinde hesap oluşturarak API anahtarlarınızı edinmeniz gerekmektedir:
 
 * Shodan.io - https://developer.shodan.io/api
 * NumVerify - https://numverify.com/documentation
@@ -175,18 +174,19 @@ You need to create the account and get the API Keys from the following websites.
 * Google Maps - https://developers.google.com/maps/documentation/places/web-service/get-api-key
 
 
-# Usage
+# Kullanım
 
+ReconSpider son derece kullanışlı ve kolay kullanımlı bir araçtır. Yapmanız gereken tek şey parametrelere değer girmektir.
+ReconSpider'ı başlatmak için şunu yazın:
 
-ReconSpider is very handy tool and easy to use. All you have to do is just have to pass values to parameter.
-In order to start ReconSpider just type:
 ```
 python3 reconspider.py
 ```
 
 **1. IP**
 
-This option gathers all the information of given IP Address from public resources.
+Bu seçenek, girilen IP adresine ait tüm bilgileri kamuya açık kaynaklardan toplar.
+
 ```
 ReconSpider >> 1
 IP >> 8.8.8.8
@@ -194,85 +194,94 @@ IP >> 8.8.8.8
 
 **2. DOMAIN**
 
-This option gathers all the information of given URL Address and check for vulneribility.
+Bu seçenek, girilen URL adresinin tüm bilgilerini toplar ve güvenlik açıklarını kontrol eder.
+
 ```
 Reconspider >> 2
 HOST (URL / IP) >> vulnweb.com
 PORT >> 443
 ```
 
-**3. PHONENUMBER**
+**3. PHONENUMBER (TELEFON NUMARASI)**
 
-This option allows you to gather information of given phonenumber.
+Bu seçenek, girilen telefon numarası hakkında bilgi toplamanızı sağlar.
+
 ```
 Reconspider >> 3
 PHONE NUMBER (919485247632) >>
 ```
 
-**4. DNS MAP**
+**4. DNS MAP (DNS HARİTASI)**
 
-This option allows you to map an organizations attack surface with a virtual DNS Map of the DNS records associated with the target organization.
+Bu seçenek, hedef organizasyona ait DNS kayıtlarıyla sanal bir DNS haritası oluşturarak organizasyonun saldırı yüzeyini haritalandırmanızı sağlar.
+
 ```
 ReconSpider >> 4
 DNS MAP (URL) >> vulnweb.com
 ```
 
-**5. METADATA**
+**5. METADATA (ÜST VERİ)**
 
-This option allows you to extract all metadat of the file.
+Bu seçenek, dosyanın tüm meta verilerini çıkarmanızı sağlar.
+
 ```
 Reconspider >> 5
 Metadata (PATH) >> /root/Downloads/images.jpeg
 ```
 
-**6. REVERSE IMAGE SEARCH**
+**6. REVERSE IMAGE SEARCH (TERS GÖRSEL ARAMA)**
 
-This option allows you to obtain information and similar image that are available in internet.
+Bu seçenek, internette mevcut olan benzer görselleri ve ilgili bilgileri edinmenizi sağlar.
+
 ```
 Reconspider >> 6
 REVERSE IMAGE SEARCH (PATH) >> /root/Downloads/images.jpeg
-Open Search Result in web broser? (Y/N) : y
+Arama sonucu web tarayıcısında açılsın mı? (E/H) : e
 ```
 
-**7. HONEYPOT**
+**7. HONEYPOT (TUZAK SİSTEM)**
 
-This option allows you to identify honeypots! The probability that an IP is a honeypot is captured in a "Honeyscore" value that can range from 0.0 to 1.0
+Bu seçenek tuzak sistemleri tespit etmenizi sağlar! Bir IP'nin tuzak olma olasılığı, 0.0 ile 1.0 arasında değişen "Honeyscore" değeriyle ölçülür.
+
 ```
 ReconSpider >> 7
 HONEYPOT (IP) >> 1.1.1.1
 ```
 
-**8. MAC ADDRESS LOOKUP**
+**8. MAC ADDRESS LOOKUP (MAC ADRESİ SORGULAMA)**
 
-This option allows you to identify Mac address details who is manufacturer, address, country, etc.
+Bu seçenek, MAC adresine ait üretici, adres, ülke gibi ayrıntılı bilgileri öğrenmenizi sağlar.
 
 ```
 Reconspider >> 8
-MAC ADDRESS LOOKUP (Eg:08:00:69:02:01:FC) >>
+MAC ADDRESS LOOKUP (Ör:08:00:69:02:01:FC) >>
 ```
 
-**9. IPHEATMAP**
+**9. IPHEATMAP (IP ISI HARİTASI)**
 
-This option provided you heatmap of the provided ip or single ip, if connect all the provided ip location with accurate Coordinator.
+Bu seçenek, girilen tekli veya çoklu IP adreslerinin konumlarını doğru koordinatlarla birleştirerek ısı haritası oluşturur.
+
 ```
 Reconspider >> 9
 
-    1) Trace single IP
-    2) Trace multiple IPs
-OPTIONS >>
+    1) Tek IP izle
+    2) Birden fazla IP izle
+SEÇENEK >>
 ```
 
 **10. TORRENT**
 
-This option allows you to gathers history of Torrent download history.
+Bu seçenek, bir IP adresinin torrent indirme geçmişini toplamanızı sağlar.
+
 ```
 Reconspider >> 10
-IPADDRESS (Eg:192.168.1.1) >>
+IPADDRESS (Ör:192.168.1.1) >>
 ```
 
-**11. USERNAME**
+**11. USERNAME (KULLANICI ADI)**
 
-This option allows you to gathers account information of the provided username from social media like Instagram, Twitter, Facebook.
+Bu seçenek, girilen kullanıcı adına ait hesap bilgilerini Instagram, Twitter ve Facebook gibi sosyal medya platformlarından toplamanızı sağlar.
+
 ```
 Reconspider >> 11
 
@@ -280,66 +289,69 @@ Reconspider >> 11
 2.Twitter
 3.Instagram
 
-Username >>
+Kullanıcı Adı >>
 ```
 
 **12. IP2PROXY**
 
-This option allows you to identify whether IP address uses any kind of VPN / Proxy to hide his identify.
+Bu seçenek, bir IP adresinin kimliğini gizlemek amacıyla VPN veya Proxy kullanıp kullanmadığını tespit etmenizi sağlar.
+
 ```
 Reconspider >> 12
-IPADDRESS (Eg:192.168.1.1) >>
+IPADDRESS (Ör:192.168.1.1) >>
 ```
 
-**13. MAIL BREACH**
+**13. MAIL BREACH (E-POSTA SIKIŞMASI)**
 
-This option allows you to identify all breached mail ID from given domain.
+Bu seçenek, girilen domaine ait sızdırılmış tüm e-posta adreslerini tespit etmenizi sağlar.
+
 ```
 Reconspider >> 13
-DOMAIN (Eg:intercom.io) >>
+DOMAIN (Ör:intercom.io) >>
 ```
 
-**99. UPDATE**
+**99. UPDATE (GÜNCELLE)**
 
-This option allows you to check for updates. If a newer version will available, ReconSpider will download and merge the updates into the current directory without overwriting other files.
+Bu seçenek güncellemeleri kontrol etmenizi sağlar. Daha yeni bir sürüm mevcutsa ReconSpider, mevcut dosyaların üzerine yazmadan güncellemeleri indirir ve bulunduğunuz dizine entegre eder.
+
 ```
 ReconSpider >> 99
-Checking for updates..
+Güncellemeler kontrol ediliyor..
 ```
 
-**0. EXIT**
+**0. EXIT (ÇIKIŞ)**
 
-This option allows you to exit from ReconSpider Framework to your current Operating System's terminal.
+Bu seçenek, ReconSpider çerçevesinden çıkarak kullandığınız işletim sisteminin terminaline dönmenizi sağlar.
+
 ```
 ReconSpider >> 0
-Bye, See ya again..
+Görüşürüz, hoşça kal..
 ```
 
 
+# Geliştirici ile İletişim
 
-# Contact Developer
-
-Do you want to have a conversation in private?
+Özel olarak görüşmek ister misiniz?
 
     Twitter:            @bhavsec
     Facebook:           fb.com/bhavsec
     Instagram:          instagram.com/bhavsec
     LinkedIn:           linkedin.com/in/bhavsec
-    Email:              bhavsec@gmail.com
-    Website:            bhavsec.com
+    E-posta:            bhavsec@gmail.com
+    Web Sitesi:         bhavsec.com
 
 
+# ReconSpider Tam Wiki ve Kullanım Kılavuzu
 
-# ReconSpider Full Wiki and How-to Guide
-
-Please go through the [ReconSpider Wiki Guide](https://github.com/bhavsec/reconspider/wiki) for a detailed explanation of each and every option and feature.
-
-
-# Frequent & Seamless Updates
-ReconSpider is under development and updates for fixing bugs. optimizing performance & new features are being rolled. Custom error handling is also not implemented, and all the focus is to create required functionality.
+Her seçenek ve özelliğin ayrıntılı açıklaması için lütfen [ReconSpider Wiki Kılavuzu](https://github.com/bhavsec/reconspider/wiki)'nu inceleyin.
 
 
-# Special Thanks & Contributors
+# Sık ve Kesintisiz Güncellemeler
+
+ReconSpider aktif geliştirme sürecindedir; hata düzeltmeleri, performans iyileştirmeleri ve yeni özellikler için güncellemeler yayımlanmaktadır. Özel hata yönetimi henüz uygulanmamış olup tüm odak, gerekli işlevselliğin oluşturulmasına yöneliktir.
+
+
+# Özel Teşekkürler ve Katkıda Bulunanlar
 
 * [Aravindha](https://github.com/Aravindha1234u)
 * [Ishan Batish](https://www.linkedin.com/in/ishanbatish/)
